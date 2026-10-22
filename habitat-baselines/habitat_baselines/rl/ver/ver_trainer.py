@@ -58,7 +58,6 @@ from habitat_baselines.utils.common import cosine_decay, inference_mode
 
 try:
     torch.backends.cudnn.allow_tf32 = True
-    torch.backends.cuda.matmul.allow_tf32 = True
 except AttributeError:
     pass
 
